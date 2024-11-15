@@ -1,0 +1,206 @@
+0000.001 (0) Opened log file at time: Thu, 14 Nov 2024 09:35:08 +0000 on http://nmota.local
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.8 WP: 6.7 PHP: 8.3.11 (cgi-fcgi, Windows NT LAPTOP-RL3C82NP 10.0 build 22631 (Windows 11) AMD64) MySQL: 8.0.16 (max packet size=16777216) WPLANG: fr_FR Server: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 41.4M | 44M) multisite: N openssl: OpenSSL 3.0.13 30 Jan 2024 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.009 (0) Free space on disk containing Updraft's temporary directory: 780370.3 MB
+0000.014 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.018 (0) Semaphore (fd, wp_options) being initialised
+0000.026 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.034 (0) Set semaphore last lock (fd) time to 2024-11-14 09:35:08
+0000.036 (0) Semaphore lock (fd) complete
+0000.045 (0) Backup run: resumption=0, nonce=05adf1f9e6fb, file_nonce=05adf1f9e6fb begun at=1731576908 (0s ago), job type=backup
+0000.050 (0) Scheduling a resumption (1) after 300 seconds (1731577208) in case this run gets aborted
+0000.064 (0) Checking if we have a zip executable available
+0000.069 (0) Creation of backups of directories: beginning
+0000.079 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.626 (0) Total entities for the zip file: 250 directories, 1473 files (0 skipped as non-modified), 29.2 MB
+0000.705 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.784 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.859 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.928 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.996 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0001.066 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0001.135 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0001.204 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0001.277 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0001.343 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0001.350 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23 MB, 1473 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0003.466 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 1100 files added (on-disk size: 6935 KB)
+0003.533 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 1200 files added (on-disk size: 6935 KB)
+0003.601 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 1300 files added (on-disk size: 6935 KB)
+0003.668 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.tmp: 1400 files added (on-disk size: 6935 KB)
+0004.542 (0) Creating zip file manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.list-temp.tmp)
+0004.560 (0) Successfully created zip file manifest (size: 124364)
+0004.664 (0) Created plugins zip (0) - 9206.1 KB in 4.6 s (2010.4 KB/s) (sha1: d145dc0092bb997036bdaf67079cee010be81ff8, sha256: 6e9494320d9acb4db8139f8c89f9c88bce93bd977b86fd667c7e96b823e5f9d0)
+0004.675 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0004.677 (0) No remote despatch: user chose no remote backup service
+0004.679 (0) Recording as successfully uploaded: backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip
+0004.684 (0) Deleting zip manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip.list.tmp)
+0004.690 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0004.693 (0) Number of backup sets in history: 0; groups (db): 1
+0004.695 (0) Number of backup sets in history: 0; groups (files): 1
+0004.697 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0004.710 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.987 (0) Total entities for the zip file: 102 directories, 582 files (0 skipped as non-modified), 20.7 MB
+0005.073 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0005.143 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0005.212 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.276 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0005.346 (0) Zip: backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0006.608 (0) Creating zip file manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip.list-temp.tmp)
+0006.618 (0) Successfully created zip file manifest (size: 41308)
+0006.818 (0) Created themes zip (0) - 19342.4 KB in 2.1 s (9200.2 KB/s) (sha1: 93bbb51938670661918b5b27e956d3c9b15b5202, sha256: 69fa802c8035a3472c0b09c4e8247974f48139cc865bf3d1fa50d1dc0f003e1a)
+0006.828 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.830 (0) No remote despatch: user chose no remote backup service
+0006.833 (0) Recording as successfully uploaded: backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip
+0006.837 (0) Deleting zip manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip.list.tmp)
+0006.843 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.845 (0) Number of backup sets in history: 0; groups (db): 1
+0006.847 (0) Number of backup sets in history: 0; groups (files): 1
+0006.849 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0006.860 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0006.862 (0) Looking for candidates to backup in: C:\Users\sophi\Bureau\OPENCLASSROOMS\local\nmota\app\public/wp-content/uploads
+0006.864 (0) finding files: 2024: adding to list (1)
+0006.866 (0) finding files: wpcf7_uploads: adding to list (2)
+0006.868 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0006.878 (0) Total entities for the zip file: 3 directories, 5 files (0 skipped as non-modified), 0 MB
+0006.892 (0) Creating zip file manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-uploads.zip.list-temp.tmp)
+0006.895 (0) Successfully created zip file manifest (size: 244)
+0006.906 (0) Created uploads zip (0) - 10 KB in 0 s (307 KB/s) (sha1: e75429fa6cd4c6f3d54ee2a8b540975cd3167838, sha256: 2d6d2fec9e7770e0566625df57b466b08622df7df95353ae33ba660a8bff67d5)
+0006.914 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.916 (0) No remote despatch: user chose no remote backup service
+0006.918 (0) Recording as successfully uploaded: backup_2024-11-14-0935_NMota_05adf1f9e6fb-uploads.zip
+0006.922 (0) Deleting zip manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-uploads.zip.list.tmp)
+0006.926 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0006.930 (0) Number of backup sets in history: 0; groups (db): 1
+0006.932 (0) Number of backup sets in history: 0; groups (files): 1
+0006.934 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0006.943 (0) No backup of mu-plugins: excluded by user's options
+0006.947 (0) Beginning backup of other directories found in the content directory (index: 0)
+0006.949 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0006.951 (0) Looking for candidates to backup in: C:\Users\sophi\Bureau\OPENCLASSROOMS\local\nmota\app\public/wp-content
+0006.953 (0) finding files: index.php: adding to list (1)
+0006.955 (0) finding files: languages: adding to list (2)
+0006.956 (0) finding files: plugins: skipping: this is the plugins directory
+0006.958 (0) finding files: themes: skipping: this is the themes directory
+0006.960 (0) finding files: updraft: skipping: this is the updraft directory
+0006.962 (0) finding files: upgrade: skipping: excluded by options
+0006.964 (0) finding files: upgrade-temp-backup: adding to list (3)
+0006.966 (0) finding files: uploads: skipping: this is the uploads directory
+0006.968 (0) finding files: wp-cache-config.php: adding to list (4)
+0007.000 (0) Total entities for the zip file: 3 directories, 75 files (0 skipped as non-modified), 3.9 MB
+0007.514 (0) Creating zip file manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-others.zip.list-temp.tmp)
+0007.519 (0) Successfully created zip file manifest (size: 4448)
+0007.542 (0) Created others zip (0) - 1109.8 KB in 0.6 s (1954.8 KB/s) (sha1: f50828b5d641c193e3a8cb25020ed951a0eb8179, sha256: 1d38c98565f8486c788e98afb59bf5320bb215b97903623fc7290c3f4ee092a5)
+0007.550 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0007.552 (0) No remote despatch: user chose no remote backup service
+0007.555 (0) Recording as successfully uploaded: backup_2024-11-14-0935_NMota_05adf1f9e6fb-others.zip
+0007.559 (0) Deleting zip manifest (backup_2024-11-14-0935_NMota_05adf1f9e6fb-others.zip.list.tmp)
+0007.564 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0007.567 (0) Number of backup sets in history: 0; groups (db): 1
+0007.569 (0) Number of backup sets in history: 0; groups (files): 1
+0007.572 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0007.589 (0) Saving backup status to database (elements: 8)
+0007.594 (0) Beginning creation of database dump (WordPress DB)
+0007.597 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0007.604 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Workbench 8.0\mysqldump.exe
+0007.889 (0) Binary mysqldump: error (code: 2)
+0007.892 (0) Testing potential mysqldump binary: C:\Program Files\MySQL\MySQL Server 8.0\bin\mysqldump.exe
+0008.054 (0) Binary mysqldump: error (code: 2)
+0008.103 (0) Table wp_options: Total expected rows (via COUNT): 196
+0008.106 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.146 (0) Table wp_options: Rows added in this batch (next record: 358): 192 (uncompressed bytes in this segment=1008970) in 0.05 seconds
+0008.162 (0) Table wp_options: finishing file(s) (2, 165.1 KB)
+0008.173 (0) Table wp_users: Total expected rows (via COUNT): 1
+0008.176 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.180 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1374) in 0.01 seconds
+0008.194 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0008.211 (0) Table wp_usermeta: Total expected rows (via COUNT): 21
+0008.213 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.216 (0) Table wp_usermeta: Rows added in this batch (next record: 21): 21 (uncompressed bytes in this segment=2605) in 0.01 seconds
+0008.232 (0) Table wp_usermeta: finishing file(s) (2, 1.2 KB)
+0008.248 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0008.254 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=685) in 0.01 seconds
+0008.271 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0008.283 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0008.286 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.292 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2141) in 0.01 seconds
+0008.304 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0008.321 (0) Table wp_links: Total expected rows (via COUNT): 0
+0008.326 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1310) in 0.01 seconds
+0008.339 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0008.353 (0) Table wp_postmeta: Total expected rows (via COUNT): 96
+0008.355 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.362 (0) Table wp_postmeta: Rows added in this batch (next record: 129): 96 (uncompressed bytes in this segment=7791) in 0.01 seconds
+0008.377 (0) Table wp_postmeta: finishing file(s) (2, 2.4 KB)
+0008.392 (0) Table wp_posts: Total expected rows (via COUNT): 29
+0008.394 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.401 (0) Table wp_posts: Rows added in this batch (next record: 32): 29 (uncompressed bytes in this segment=24697) in 0.01 seconds
+0008.416 (0) Table wp_posts: finishing file(s) (2, 4.5 KB)
+0008.427 (0) Table wp_term_relationships: Total expected rows (approximate): 7
+0008.433 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 8 (uncompressed bytes in this segment=792) in 0.01 seconds
+0008.446 (0) Table wp_term_relationships: finishing file(s) (2, 0.4 KB)
+0008.460 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 4
+0008.463 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.469 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=1019) in 0.01 seconds
+0008.484 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.5 KB)
+0008.501 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0008.506 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0008.521 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0008.532 (0) Table wp_terms: Total expected rows (via COUNT): 4
+0008.534 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0008.540 (0) Table wp_terms: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=863) in 0.01 seconds
+0008.552 (0) Table wp_terms: finishing file(s) (2, 0.5 KB)
+0008.554 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\Users\sophi\Bureau\OPENCLASSROOMS\local\nmota\app\public/wp-content/updraft/backup_2024-11-14-0935_NMota_05adf1f9e6fb-db.gz (line 1925, C:\Users\sophi\Bureau\OPENCLASSROOMS\local\nmota\app\public\wp-content\plugins\updraftplus\backup.php)
+0008.559 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_options.table.tmpr359.gz (1/12/fopen): adding to final database dump
+0008.571 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_options.table.gz (2/12/fopen): adding to final database dump
+0008.573 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_users.table.tmpr2.gz (3/12/fopen): adding to final database dump
+0008.576 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_users.table.gz (4/12/fopen): adding to final database dump
+0008.578 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_usermeta.table.tmpr22.gz (5/12/fopen): adding to final database dump
+0008.580 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_usermeta.table.gz (6/12/fopen): adding to final database dump
+0008.583 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_commentmeta.table.tmpr0.gz (7/12/fopen): adding to final database dump
+0008.585 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_commentmeta.table.gz (8/12/fopen): adding to final database dump
+0008.588 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_comments.table.tmpr2.gz (9/12/fopen): adding to final database dump
+0008.590 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_comments.table.gz (10/12/fopen): adding to final database dump
+0008.592 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_links.table.tmpr0.gz (11/12/fopen): adding to final database dump
+0008.595 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_links.table.gz (12/12/fopen): adding to final database dump
+0008.597 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_postmeta.table.tmpr130.gz (13/12/fopen): adding to final database dump
+0008.600 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_postmeta.table.gz (14/12/fopen): adding to final database dump
+0008.602 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_posts.table.tmpr33.gz (15/12/fopen): adding to final database dump
+0008.604 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_posts.table.gz (16/12/fopen): adding to final database dump
+0008.606 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_term_relationships.table.tmpr100001.gz (17/12/fopen): adding to final database dump
+0008.609 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_term_relationships.table.gz (18/12/fopen): adding to final database dump
+0008.611 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_term_taxonomy.table.tmpr5.gz (19/12/fopen): adding to final database dump
+0008.613 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_term_taxonomy.table.gz (20/12/fopen): adding to final database dump
+0008.615 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_termmeta.table.tmpr0.gz (21/12/fopen): adding to final database dump
+0008.618 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_termmeta.table.gz (22/12/fopen): adding to final database dump
+0008.620 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_terms.table.tmpr5.gz (23/12/fopen): adding to final database dump
+0008.623 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db-table-wp_terms.table.gz (24/12/fopen): adding to final database dump
+0008.640 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db.gz: finished writing out complete database file (177.6 KB)
+0008.660 (0) Total database tables backed up: 12 (backup_2024-11-14-0935_NMota_05adf1f9e6fb-db.gz, size: 181976, sha1: 95425e8836da71555b2dac30f79a220b7bcef9e4, sha256: ed7029b15b09d567d37e6ead23a514b66f8f44f66ba39614d4ac2157afada116)
+0008.671 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-plugins.zip: plugins: This file has already been successfully processed
+0008.674 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-themes.zip: themes: This file has already been successfully processed
+0008.676 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-uploads.zip: uploads: This file has already been successfully processed
+0008.678 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-others.zip: others: This file has already been successfully processed
+0008.680 (0) backup_2024-11-14-0935_NMota_05adf1f9e6fb-db.gz: db: This file has not yet been successfully uploaded: will queue
+0008.682 (0) Saving backup history. Total backup size: 29.1 MB
+0008.687 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0008.694 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0008.696 (0) No remote despatch: user chose no remote backup service
+0008.698 (0) Recording as successfully uploaded: backup_2024-11-14-0935_NMota_05adf1f9e6fb-db.gz
+0008.704 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0008.707 (0) Number of backup sets in history: 1; groups (db): 1
+0008.709 (0) Examining (for databases) backup set with group_id=0, nonce=05adf1f9e6fb, datestamp=1731576908 (Nov 14 2024 09:35:08)
+0008.711 (0) This backup set is the backup set just made, so will not be deleted.
+0008.711 (0) Number of backup sets in history: 1; groups (files): 1
+0008.712 (0) Examining (for files) backup set with nonce=05adf1f9e6fb, datestamp=1731576908 (Nov 14 2024 09:35:08)
+0008.713 (0) This backup set is the backup set just made, so will not be deleted.
+0008.715 (0) This backup set is the backup set just made, so will not be deleted.
+0008.715 (0) This backup set is the backup set just made, so will not be deleted.
+0008.715 (0) This backup set is the backup set just made, so will not be deleted.
+0008.715 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0008.717 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0008.722 (0) Resume backup (05adf1f9e6fb, 0): finish run
+0008.728 (0) Decremented the semaphore (fd) by 1
+0008.732 (0) Semaphore (fd) unlocked
+0008.734 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0008.741 (0) No email will/can be sent - the user has not configured an email address.
+0008.743 (0) The backup succeeded and is now complete

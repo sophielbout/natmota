@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "liveSassCompile.settings.rootIsWorkspace": true,
+    "liveSassCompile.settings.watchOnLaunch": true
+}

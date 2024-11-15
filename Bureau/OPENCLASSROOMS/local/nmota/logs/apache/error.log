@@ -1,0 +1,29 @@
+[Tue Nov 12 08:31:32.819738 2024] [mpm_winnt:notice] [pid 52196:tid 788] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Tue Nov 12 08:31:32.819738 2024] [mpm_winnt:notice] [pid 52196:tid 788] AH00456: Server built: Apr 21 2020 13:46:54
+[Tue Nov 12 08:31:32.819738 2024] [core:notice] [pid 52196:tid 788] AH00094: Command line: 'C:\\Users\\sophi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/sophi/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\sophi\\AppData\\Roaming\\Local\\run\\wHho72IJj\\conf\\apache\\apache2.conf'
+[Tue Nov 12 08:31:32.830665 2024] [mpm_winnt:notice] [pid 52196:tid 788] AH00418: Parent: Created child process 51424
+[Tue Nov 12 08:31:33.694252 2024] [mpm_winnt:notice] [pid 51424:tid 820] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 13 09:57:12.685427 2024] [core:warn] [pid 24104:tid 780] AH00098: pid file C:/Users/sophi/AppData/Roaming/Local/run/wHho72IJj/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 13 09:57:12.690595 2024] [mpm_winnt:notice] [pid 24104:tid 780] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Wed Nov 13 09:57:12.690595 2024] [mpm_winnt:notice] [pid 24104:tid 780] AH00456: Server built: Apr 21 2020 13:46:54
+[Wed Nov 13 09:57:12.690595 2024] [core:notice] [pid 24104:tid 780] AH00094: Command line: 'C:\\Users\\sophi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/sophi/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\sophi\\AppData\\Roaming\\Local\\run\\wHho72IJj\\conf\\apache\\apache2.conf'
+[Wed Nov 13 09:57:12.698827 2024] [mpm_winnt:notice] [pid 24104:tid 780] AH00418: Parent: Created child process 33676
+[Wed Nov 13 09:57:13.195488 2024] [mpm_winnt:notice] [pid 33676:tid 816] AH00354: Child: Starting 64 worker threads.
+[Wed Nov 13 14:19:08.677333 2024] [core:warn] [pid 14396:tid 760] AH00098: pid file C:/Users/sophi/AppData/Roaming/Local/run/wHho72IJj/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Nov 13 14:19:08.679307 2024] [mpm_winnt:notice] [pid 14396:tid 760] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Wed Nov 13 14:19:08.679307 2024] [mpm_winnt:notice] [pid 14396:tid 760] AH00456: Server built: Apr 21 2020 13:46:54
+[Wed Nov 13 14:19:08.679307 2024] [core:notice] [pid 14396:tid 760] AH00094: Command line: 'C:\\Users\\sophi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/sophi/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\sophi\\AppData\\Roaming\\Local\\run\\wHho72IJj\\conf\\apache\\apache2.conf'
+[Wed Nov 13 14:19:08.687010 2024] [mpm_winnt:notice] [pid 14396:tid 760] AH00418: Parent: Created child process 2880
+[Wed Nov 13 14:19:09.178065 2024] [mpm_winnt:notice] [pid 2880:tid 836] AH00354: Child: Starting 64 worker threads.
+[Thu Nov 14 08:53:13.841390 2024] [core:warn] [pid 10652:tid 744] AH00098: pid file C:/Users/sophi/AppData/Roaming/Local/run/wHho72IJj/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Nov 14 08:53:13.846898 2024] [mpm_winnt:notice] [pid 10652:tid 744] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Thu Nov 14 08:53:13.846898 2024] [mpm_winnt:notice] [pid 10652:tid 744] AH00456: Server built: Apr 21 2020 13:46:54
+[Thu Nov 14 08:53:13.846898 2024] [core:notice] [pid 10652:tid 744] AH00094: Command line: 'C:\\Users\\sophi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/sophi/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\sophi\\AppData\\Roaming\\Local\\run\\wHho72IJj\\conf\\apache\\apache2.conf'
+[Thu Nov 14 08:53:13.854385 2024] [mpm_winnt:notice] [pid 10652:tid 744] AH00418: Parent: Created child process 14472
+[Thu Nov 14 08:53:14.490607 2024] [mpm_winnt:notice] [pid 14472:tid 844] AH00354: Child: Starting 64 worker threads.
+[Fri Nov 15 15:22:03.512638 2024] [core:warn] [pid 13376:tid 692] AH00098: pid file C:/Users/sophi/AppData/Roaming/Local/run/wHho72IJj/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Nov 15 15:22:03.518637 2024] [mpm_winnt:notice] [pid 13376:tid 692] AH00455: Apache/2.4.43 (Win32) mod_fcgid/2.3.9a configured -- resuming normal operations
+[Fri Nov 15 15:22:03.518637 2024] [mpm_winnt:notice] [pid 13376:tid 692] AH00456: Server built: Apr 21 2020 13:46:54
+[Fri Nov 15 15:22:03.518637 2024] [core:notice] [pid 13376:tid 692] AH00094: Command line: 'C:\\Users\\sophi\\AppData\\Roaming\\Local\\lightning-services\\apache-2.4.43+8\\bin\\win32\\bin\\httpd.exe -d C:/Users/sophi/AppData/Roaming/Local/lightning-services/apache-2.4.43+8/bin/win32 -D FOREGROUND -f C:\\Users\\sophi\\AppData\\Roaming\\Local\\run\\wHho72IJj\\conf\\apache\\apache2.conf'
+[Fri Nov 15 15:22:03.526544 2024] [mpm_winnt:notice] [pid 13376:tid 692] AH00418: Parent: Created child process 25496
+[Fri Nov 15 15:22:04.216293 2024] [mpm_winnt:notice] [pid 25496:tid 852] AH00354: Child: Starting 64 worker threads.

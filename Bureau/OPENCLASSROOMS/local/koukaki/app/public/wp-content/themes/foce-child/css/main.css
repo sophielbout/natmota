@@ -1,0 +1,186 @@
+@charset "UTF-8";
+.banner,
+.story,
+#studio,
+.nomination,
+.site-footer {
+  opacity: 0;
+  -webkit-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out; /* Transition fluide */
+}
+
+/* Appliquer l'opacité à 1 quand elles sont visibles */
+.banner.visible,
+.story.visible,
+#studio.visible,
+.nomination.visible,
+.site-footer.visible {
+  opacity: 1;
+}
+
+/* Fleurs */
+.story__article {
+  overflow: hidden; /* Empêche l'image de dépasser du conteneur */
+}
+
+/* Si l'image tourne mais dépasse le conteneur */
+.story__article::after {
+  content: "";
+  display: block;
+  width: 200px; /* Ajustez selon la taille souhaitée */
+  height: 200px; /* Ajustez selon la taille souhaitée */
+  background-image: url("assets/Hibiscus.png"); /* Remplacez par le bon chemin de votre image */
+  background-size: contain;
+  -webkit-animation: rotate 5s linear infinite;
+          animation: rotate 5s linear infinite;
+  border-radius: 50%; /* S'assure que l'image reste dans une forme circulaire */
+  position: absolute;
+}
+
+/* Rotation des fleurs */
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/* Styles communs pour l'animation */
+.story__article::after, .site-footer ul::after {
+  -webkit-animation: rotate 7s linear infinite;
+          animation: rotate 7s linear infinite;
+}
+
+/* Spécificités pour Hibiscus.png */
+.story__article::after {
+  background-image: url("http://koukaki.local/wp-content/uploads/2024/10/Hibiscus.png");
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+}
+
+/* Spécificités pour hibiscus_footer.png */
+.site-footer ul::after {
+  background-image: url("http://koukaki.local/wp-content/uploads/2024/10/hibiscus_footer.png");
+}
+
+@-webkit-keyframes slideUp {
+  from {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+#histoire-h2, #studio-h2, #koukaki-h2 {
+  display: inline-block;
+  opacity: 0;
+  -webkit-transform: translateY(50px);
+          transform: translateY(50px);
+}
+
+#histoire-h2.visible {
+  -webkit-animation: slideUp 1s ease-out forwards;
+          animation: slideUp 1s ease-out forwards;
+}
+
+#studio-h2.visible {
+  -webkit-animation: slideUp 1s ease-out forwards;
+          animation: slideUp 1s ease-out forwards;
+}
+
+#koukaki-h2.visible {
+  -webkit-animation: slideUp 1s ease-out forwards;
+          animation: slideUp 1s ease-out forwards;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s; /* Délai pour Koukaki */
+}
+
+/* Section banner contenant la vidéo  */
+.banner {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Vidéo de fond dans la section banner */
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover; /* La vidéo couvre tout l'espace sans déformation */
+  z-index: 0;
+  display: block;
+}
+
+/* Image de fallback affichée par défaut sur mobile et pendant le chargement */
+.fallback-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: 0;
+  display: none; /* Par défaut, l'image est cachée */
+}
+
+/* Logo affiché au-dessus de la vidéo */
+.banner img {
+  position: relative;
+  z-index: 1; /* Le logo est au-dessus de la vidéo */
+  max-width: 200px;
+  margin: 20px;
+}
+
+/* Vidéo cachée sur mobile et l'image de fallback affichée */
+@media only screen and (max-width: 768px) {
+  .background-video {
+    display: none; /* Cacher la vidéo sur mobile */
+  }
+  .banner,
+  #story,
+  .studio {
+    width: 100%; /* Assurer que l'image occupe 100% de la largeur de l'écran */
+    height: auto; /* Garde le ratio d'aspect de l'image */
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  /* Rendre le titre totalement transparent */
+  .video-overlay-content h1 {
+    opacity: 0; /* Rendre le titre invisible */
+  }
+}
